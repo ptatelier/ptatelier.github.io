@@ -1,0 +1,95 @@
+body, html {
+	font-family: 'Lato', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+    background: radial-gradient(#12305c, #293f50);
+}
+
+body::after {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png");
+    position: absolute;
+    height: inherit;
+    width: inherit;
+  }
+
+/* Navigation */
+#menu {
+	padding: 20px;
+	transition: all 0.8s;
+    /* margin-bottom: 10px; */
+}
+
+#menu a.navbar-brand {
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 900;
+}
+
+#menu.navbar .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #eeeeee;
+	font-size: 15px;
+	letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.on {
+    background-color: #222222 !important;
+	padding: 10px !important;
+}
+
+#menu.navbar .navbar-nav > li > a:hover {
+	color: #0dad8d;
+}
+
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #222;
+}
+
+#menu.navbar-default .navbar-nav > li > a:hover {
+	color: #0dad8d;
+}
+
+/* Home Style */
+header {
+	/* background: url(../img/header-bg.jpg) no-repeat bottom right; */
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+	height: 100%;
+}
+header p {
+	color: rgba(255,255,255,0.8);
+	font-size: 20px;
+	margin-bottom: 80px;
+}
+.intro-text {
+	position: relative;
+	padding-top: 350px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 350px;
+}
+.intro-text H1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	margin-top: 0px;
+}
+.intro-text p {
+	font-size: 45px;
+	text-transform: uppercase;
+	color: #0dad8d;
+    letter-spacing: 0.3em;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+canvas {
+    position:absolute;
+}
